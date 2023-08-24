@@ -1,0 +1,1 @@
+from .event_list_view import event_list_view

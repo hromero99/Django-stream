@@ -1,6 +1,6 @@
 from django.shortcuts import render
 from django.http import request
-from .models import Event
+from ..models import Event
 
 def event_list_view(request):
     events = Event.objects.all()
